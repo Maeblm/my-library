@@ -1,3 +1,5 @@
+// Hello! In my code, I use the template described on the following website:
+// https://github.com/Maeblm/my-library/tree/main
 #include <bits/stdc++.h>
 using namespace std;
 // #include <atcoder/all>
