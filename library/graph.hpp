@@ -34,12 +34,12 @@ struct Graph {
 
     // コスト1の辺 u → v を追加
     void add_edge(int u, int v) {
-        add_edge(T(1), u, v);
+        add_edge(u, v, T(1));
     }
 
 
     // コストcの辺 u → v を追加
-    void add_edge(T c, int u, int v) {
+    void add_edge(int u, int v, T c) {
         _edges[u].push_back(Edge<T>(u, v, c));
 
         _total_edge_cost += c;
